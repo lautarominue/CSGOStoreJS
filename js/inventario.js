@@ -1,27 +1,27 @@
 let section = document.getElementById("inventory");
-let inventario = JSON.parse(localStorage.getItem("carrito"));
-console.log(inventario);
+let carrito = JSON.parse(localStorage.getItem("inventario"));
+console.log(carrito);
 
-inventario.forEach((element, index) => {
-    createInventory(element, index);
+carrito.forEach((element) => {
+    if ( element.cantidad > 0 ) {
+        createInventory(element);
+    }
 });
 
-function createInventory(caja, indice) {
+function createInventory(caja) {
     let contenedor = document.createElement("article")
     contenedor.classList.add("store__container")
     contenedor.innerHTML = `<div>
-                                <img src="${caja.url}" alt="">
+                                <img src="${caja.imagen}" alt="">
                             </div>
                             <div>
-                                <h2>${caja.nombre}</h2>
+                                <h2>${caja.descripcion}</h2>
+                                <div>Cantidad : ${caja.cantidad}</div>
                                 <button id="btn-open-box-${caja.id}">Open</button>
                             </div>`;
         document.body.appendChild(contenedor);
         let boton = document.getElementById(`btn-open-box-${caja.id}`);  
-        // boton.onclick = () => {
-        //     // openBox(caja); 
-        //     deleteBox(indice)
-        // }                 
+                     
   
 }
 
