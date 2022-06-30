@@ -18,10 +18,10 @@ function createInventory(caja, indice) {
                             </div>`;
         document.body.appendChild(contenedor);
         let boton = document.getElementById(`btn-open-box-${caja.id}`);  
-        boton.onclick = () => {
-            // openBox(caja); 
-            deleteBox(indice)
-        }                 
+        // boton.onclick = () => {
+        //     // openBox(caja); 
+        //     deleteBox(indice)
+        // }                 
   
 }
 
