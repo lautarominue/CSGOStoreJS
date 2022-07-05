@@ -8,6 +8,16 @@ class Cajitas {
     }
 }
 
+class Keys {
+    constructor (imagen, descripcion, precio, cantidad, id) {
+        this.imagen = imagen;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.id = id;
+    }
+}
+
 const listaCajitas = [
     new Cajitas ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsXE1xNwVDv7WrFA5pnabNJGwSuN3gxtnawKOlMO6HzzhQucAm0uvFo4n2iw3h_UM-ZmilJNeLMlhpjfjxEoE/360fx360f",
     "Bravo Case", 500, 0, 1),
@@ -22,66 +32,75 @@ const listaCajitas = [
     new Cajitas ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFUxnaPLJz5H74y1xtTcz6etNumIx29U6Zd3j7yQoYih3lG1-UJqY27xJIeLMlhpaD9Aclo/360fx360f",
     "Danger Case", 70, 0 ,6),
     new Cajitas ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5_T3eAQ3i6DMIW0X7ojiwoHax6egMOKGxj4G68Nz3-jCp4itjFWx-ktqfSmtcwqVx6sT/360fx360f",
-    "CSGO Case 1", 600, 0, 7)
+    "CSGO Case 1", 600, 0, 7),
+]
+
+const listKeys = [
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUlrBpNQ0LvROW-0vDYVkRLKQVFsb_rcgNhivDMcGwTu4nix9HalKelZeuIz28BvcYiju2SptysjlKw_BA4ZXezetG2F82ptg/360fx360f",
+    "Key Bravo", 100, 0, 8),
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOievrLVY2i6ebKDsbv47hw4TTlaSsZeKIxztQu8B03L2Y8Imh2Aftrhc-Z3ezetFDsuzS1g/360fx360f",
+    "Key Invernal", 90, 0, 9),
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiejrL1Zi0aaRd25E6IXgktTYxKWtZOKHzztSuJ11ibqQoYqi3FDg80c4NnezetGrA31LSA/360fx360f",
+    "Key Phoenix", 80, 0, 10),
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiezrLVYygaCYdDlB79_mwdKIlq-tY-LUlzgB6sYm27-W8dvx0Vey_0ZrY3ezetEQGWlygA/360fx360f",
+    "Key Chroma", 70, 0, 11),
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOievwZVQ51qSfd2pButjnxdTbkaD2YbjTwD4BuZR32uzF9t3w0ALl-kRqN2jtZNjCOd6cueQ/360fx360f",
+    "Key Gloves", 50, 0, 12),
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiej0ZVM21aKfdGlB6Y3izdTSzqCmY-_TlT4Cu5B13riWoIn30FG2-xc6MTztZNjCZG4fUlY/360fx360f",
+    "Key Danger", 55, 0, 13),
+    new Keys ("https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiev2ZVBkgafOdW9Hu9jgwYXbxKP2Z7mCw28HucZ1j7mR9tvxjlfk-UY9ZW_tZNjClU49oyY/360fx360f",
+    "Key CSGO 1", 200, 0, 14)
 ]
 
 let section = document.getElementById("store");
 
-function createStore() {
-    listaCajitas.forEach(caja => {
+function createStore(list, name) {
+    list.forEach(data => {
         let contenedor = document.createElement("article");
     contenedor.classList.add("store__container")
     contenedor.innerHTML = `<div>
-                                <img src="${caja.imagen}" alt="">
+                                <img src="${data.imagen}" alt="">
                 
                             </div>
                             <div>
-                                <h2>${caja.descripcion}</h2>
-                                <ul>
-                                    <li>
-                                        skin
-                                    </li>
-                                    <li>
-                                        skin
-                                    </li>
-                                    <li>
-                                        skin
-                                    </li>
-                                    <li>
-                                        skin
-                                    </li>
-                                    <li>
-                                        skin
-                                    </li>
-                                </ul>
-                            <button id="btn-box-${caja.id}">Buy</button>
+                                <h2>${data.descripcion}</h2>
+                            <button id="btn-box-${data.id}">Buy</button>
                         </div>`;
     document.body.appendChild(contenedor);  
-    let boton = document.getElementById(`btn-box-${caja.id}`);  
+    let boton = document.getElementById(`btn-box-${data.id}`);  
     boton.onclick = () => {
-        saveCarrito(caja); 
+        saveCarrito(data, name); 
     }                    
     });
 }
 
-createStore();
+createStore(listaCajitas, "InventarioCajas");
+createStore(listKeys, "InventarioLlaves");
+createLocal(listaCajitas, "InventarioCajas");
+createLocal(listKeys, "InventarioLlaves");
 
-
-if ( !localStorage.getItem("inventario") ) {
-    localStorage.setItem("inventario", JSON.stringify(listaCajitas))
+function createLocal(data, name) {
+    if ( !localStorage.getItem(name) ) {
+        localStorage.setItem(name, JSON.stringify(data))
+    }
+    
 }
 
 
-
-function saveCarrito(box) {
+function saveCarrito(data, name) {
+    let carrito = JSON.parse(localStorage.getItem(name));
     carrito.forEach(element => {
-        if ( box.id == element.id ) {
+        if ( data.id == element.id ) {
             element.cantidad += 1;
-            localStorage.setItem("inventario", JSON.stringify(carrito))
+            localStorage.setItem(name, JSON.stringify(carrito))
             //alert
-            swal("Felicitaciones!", "Compraste una caja", "success");
+            if ( name == "InventarioCajas" ) {
+                swal("Felicitaciones!", "Compraste una caja", "success");
+            }else {
+                swal("Felicitaciones!", "Compraste una llave", "success");
+            }            
         }
     });
+    
 }
 
-let carrito = JSON.parse(localStorage.getItem("inventario"));
