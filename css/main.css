@@ -1,3 +1,29 @@
-.store__container {
+* {
+  margin: 0; }
+
+.cajas {
   display: flex;
-  border: solid 1px black; }
+  justify-content: center; }
+  .cajas__container {
+    display: grid;
+    grid-template-areas: "auto auto auto";
+    gap: 2rem; }
+    .cajas__container__data {
+      width: 350px;
+      border-radius: 1rem;
+      box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3); }
+      .cajas__container__data__img {
+        height: 280px; }
+        .cajas__container__data__img__coleccion {
+          width: 300px; }
+      .cajas__container__data__info {
+        padding: 1rem 1rem 0rem 1rem;
+        text-align: center; }
+      .cajas__container__data__button {
+        text-align: end;
+        padding: 0rem 1rem 1rem 1rem; }
+
+.inv__button {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem 1rem 1rem; }

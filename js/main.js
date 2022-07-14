@@ -57,16 +57,21 @@ let section = document.getElementById("store");
 function createStore(list, name) {
     list.forEach(data => {
         let contenedor = document.createElement("article");
-    contenedor.classList.add("store__container")
-    contenedor.innerHTML = `<div>
-                                <img src="${data.imagen}" alt="">
-                
-                            </div>
-                            <div>
-                                <h2>${data.descripcion}</h2>
-                            <button id="btn-box-${data.id}">Buy</button>
-                        </div>`;
-    document.body.appendChild(contenedor);  
+    contenedor.classList.add("cajas__container__data")
+        contenedor.innerHTML = `
+                                    
+                                        <div class="cajas__container__data__img">
+                                        <img src="${data.imagen}" alt=""> 
+                                        </div>
+                                        <div class="cajas__container__data__info">
+                                        <h2>${data.descripcion} $${data.precio}</h2>
+                                        </div>
+                                        <div class="cajas__container__data__button">
+                                            <button id="btn-box-${data.id}">Buy</button>
+                                        </div>
+                                    
+                                `;
+    section.appendChild(contenedor);  
     let boton = document.getElementById(`btn-box-${data.id}`);  
     boton.onclick = () => {
         saveCarrito(data, name); 
@@ -103,4 +108,3 @@ function saveCarrito(data, name) {
     });
     
 }
-

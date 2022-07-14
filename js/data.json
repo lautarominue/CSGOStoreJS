@@ -1,0 +1,44 @@
+[
+    {
+        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlZG0mP74Nr_um25V4dB8teXA54vwxlfk_kU9ZWqgJ9fGJwQ3Z1vY-wK2wOfo15K1uZXJm3ox6Skqsy3emUGpwUYbA4Ce6rU/360fx360f",
+        "description": "Karambit acero Templado",
+        "precio": 5000,
+        "cantidad": 0,
+        "id": 15
+    },
+    {
+        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJYAJN5dCzkL-HnvD8J4Tdl3lW7Yso2LmZo9rw2lXlrUJrNT2iI4GVcFM-M1yDqFi7l-rq1J7ttM7JyXVjpGB8slOwrcti/360fx360f",
+        "description": "Bayoneta acero templado",
+        "precio": 4000,
+        "cantidad": 0,
+        "id": 16
+    },
+    {
+        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibK8LxVh7PTEfitH_-O0mI-Ek__7JrXVqWNI7NdwterA5onKgFWmrxYyNj2ceN_CKkJRPQmSrQSgx-_u18O4tc7KmHA1uSci4HiMmBKzgUtEP7FogabNQV2WUaNBFPKBUm2Q7s4VNTum5A/360fx360f",
+        "description": "Guantes Hydra acero templado",
+        "precio": 3000,
+        "cantidad": 0,
+        "id": 17
+    },
+    {
+        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ODbTjxT09O_mIWPqPv9NLPFqWdQ-sJ0xLuRpdykiwDlrko-NWqmJdWUJlc3aFvYqVjoxuy-jJW5vpnIzndm6Sg8pSGKOEOP9uA/360fx360f",
+        "description": "Cuchillo clasico acero templado",
+        "precio": 1000,
+        "cantidad": 0,
+        "id": 18
+    },
+    {
+        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxT09O_mIWPqPrxN7LEm1Rd6dd2j6eUrdzw0Vfg-EY9N236IoSRIFU_YV_RqFi2kOjsg5e1u5XAmnAxsiR3-z-DyDOYcv8_/360fx360f",
+        "description": "Cuchillo destripador acero templado",
+        "precio": 2000,
+        "cantidad": 0,
+        "id": 19
+    },
+    {
+        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1OrYYiR95t21n4uFnvHxDLrAqWRY5MB1teTE8YXghWu4qgE7Nnf6IIOScQ5taQnVqVW8x-7nhcK-vZzJmCdnsihz53qOzhDlg0wfa7c8m7XAHvfML_f7/360fx360f",
+        "description": "Navaja acero templado",
+        "precio": 700,
+        "cantidad": 0,
+        "id": 20
+    }
+]

@@ -1,6 +1,35 @@
-.store {
+*{
+    margin: 0;
+}
+
+
+.cajas {
+    display: flex;
+    justify-content: center;
     &__container {
-        display: flex;
-        border: solid 1px black;
+        display: grid;
+        grid-template-areas: "auto auto auto";
+        gap: 2rem;
+        &__data {
+            width: 350px;
+            border-radius: 1rem;
+            box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+            &__img {
+                height: 280px;
+                &__coleccion{
+                    width: 300px;
+                }
+            }
+            &__info {
+                padding: 1rem 1rem 0rem 1rem;
+                text-align: center;
+            }
+            &__button {
+                text-align: end;
+                padding: 0rem 1rem 1rem 1rem;
+            }
+        }
+
     }
+
 }
