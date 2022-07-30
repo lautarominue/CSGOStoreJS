@@ -1,44 +1,123 @@
-[
-    {
-        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlZG0mP74Nr_um25V4dB8teXA54vwxlfk_kU9ZWqgJ9fGJwQ3Z1vY-wK2wOfo15K1uZXJm3ox6Skqsy3emUGpwUYbA4Ce6rU/360fx360f",
-        "description": "Karambit acero Templado",
-        "precio": 5000,
+{
+    "box": [
+        {
+            "name": "Bravo Case",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsXE1xNwVDv7WrFA5pnabNJGwSuN3gxtnawKOlMO6HzzhQucAm0uvFo4n2iw3h_UM-ZmilJNeLMlhpjfjxEoE/360fx360f",
+            "price": 500,
+            "cantidad": 0,
+            "id": 1
+        },
+        {
+            "name": "Invernal Case",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFYu0aKfJz8a793gxNLfzvOkMunUwWgH7JIjj-qW8d7x2VXt_UBuMT3zIpjVLFEGDSGUSQ/360fx360f",
+            "price": 400,
+            "cantidad": 0,
+            "id": 2
+        },
+        {
+            "name": "Phoenix Case",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFUuh6qZJmlD7tiyl4OIlaGhYuLTzjhVupJ12urH89ii3lHlqEdoMDr2I5jVLFFSv_J2Rg/360fx360f",
+            "price": 300,
+            "cantidad": 0,
+            "id": 3
+        },
+        {
+            "name": "Chroma Case",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFEuh_KQJTtEuI63xIXbxqOtauyClTMEsJV1jruS89T3iQKx_BBqa2j3JpjVLFH1xpp0EQ/360fx360f",
+            "price": 100,
+            "cantidad": 0,
+            "id": 4
+        },
+        {
+            "name": "Gloves Case",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFY1naTMdzwTtNrukteIkqT2MO_Uwz5Q6cYhibyXo4rw2ALsrkRoYjuncNCLMlhpEV4XDTk/360fx360f",
+            "price": 200,
+            "cantidad": 0,
+            "id": 5
+        },
+        {
+            "name": "Danger Case",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFUxnaPLJz5H74y1xtTcz6etNumIx29U6Zd3j7yQoYih3lG1-UJqY27xJIeLMlhpaD9Aclo/360fx360f",
+            "price": 70,
+            "cantidad": 0,
+            "id": 6
+        },
+        {
+            "name": "CSGO Case 1",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5_T3eAQ3i6DMIW0X7ojiwoHax6egMOKGxj4G68Nz3-jCp4itjFWx-ktqfSmtcwqVx6sT/360fx360f",
+            "price": 600,
+            "cantidad": 0,
+            "id": 7
+        }
+    ],
+    "key": [
+        {
+            "name": "Key Bravo",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUlrBpNQ0LvROW-0vDYVkRLKQVFsb_rcgNhivDMcGwTu4nix9HalKelZeuIz28BvcYiju2SptysjlKw_BA4ZXezetG2F82ptg/360fx360f",
+            "price": 100,
+            "cantidad": 0,
+            "id": 8
+        },
+        {
+            "name": "Key Invernal",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOievrLVY2i6ebKDsbv47hw4TTlaSsZeKIxztQu8B03L2Y8Imh2Aftrhc-Z3ezetFDsuzS1g/360fx360f",
+            "price": 90,
+            "cantidad": 0,
+            "id": 9
+        },
+        {
+            "name": "Key Phoenix",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiejrL1Zi0aaRd25E6IXgktTYxKWtZOKHzztSuJ11ibqQoYqi3FDg80c4NnezetGrA31LSA/360fx360f",
+            "price": 80,
+            "cantidad": 0,
+            "id": 10
+        },
+        {
+            "name": "Key Chroma",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiezrLVYygaCYdDlB79_mwdKIlq-tY-LUlzgB6sYm27-W8dvx0Vey_0ZrY3ezetEQGWlygA/360fx360f",
+            "price": 70,
+            "cantidad": 0,
+            "id": 11
+        },
+        {
+            "name": "Key Gloves",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOievwZVQ51qSfd2pButjnxdTbkaD2YbjTwD4BuZR32uzF9t3w0ALl-kRqN2jtZNjCOd6cueQ/360fx360f",
+            "price": 50,
+            "cantidad": 0,
+            "id": 12
+        },
+        {
+            "name": "Key Danger",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiej0ZVM21aKfdGlB6Y3izdTSzqCmY-_TlT4Cu5B13riWoIn30FG2-xc6MTztZNjCZG4fUlY/360fx360f",
+            "price": 55,
+            "cantidad": 0,
+            "id": 13
+        },
+        {
+            "name": "Key CSGO 1",
+            "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUxuxpJSXPbQv2S1MDeXkh6LBBOiev2ZVBkgafOdW9Hu9jgwYXbxKP2Z7mCw28HucZ1j7mR9tvxjlfk-UY9ZW_tZNjClU49oyY/360fx360f",
+            "price": 200,
+            "cantidad": 0,
+            "id": 14
+        }
+    ],
+    "items": [{
+        "name": "Desert Eagle Blaze",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLJTjtO7dGzh7-HnvD8J4Tdl3lW7Yt1jriVpY-migfh8hBtZTqgcI7Aewc2MgnWqwW-k-zph569uZyfnHMwpGB8slBfgSNs/360fx360f",
         "cantidad": 0,
         "id": 15
     },
     {
-        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJYAJN5dCzkL-HnvD8J4Tdl3lW7Yso2LmZo9rw2lXlrUJrNT2iI4GVcFM-M1yDqFi7l-rq1J7ttM7JyXVjpGB8slOwrcti/360fx360f",
-        "description": "Bayoneta acero templado",
-        "precio": 4000,
+        "name": "Bayoneta Lore",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zLZAJA7cW5moWfqPv7Ib7ummJW4NFOhujT8om72wPmqEQ5YzygIoORJAVsNF2E_1Lryem818Tt756Ym3NlunMqtnjbygv3309GNM5LHA/360fx360f",
         "cantidad": 0,
         "id": 16
     },
     {
-        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibK8LxVh7PTEfitH_-O0mI-Ek__7JrXVqWNI7NdwterA5onKgFWmrxYyNj2ceN_CKkJRPQmSrQSgx-_u18O4tc7KmHA1uSci4HiMmBKzgUtEP7FogabNQV2WUaNBFPKBUm2Q7s4VNTum5A/360fx360f",
-        "description": "Guantes Hydra acero templado",
-        "precio": 3000,
+        "name": "Specialist Gloves Marble Fade",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAQ1h3LAVbv6mxFABs3OXNYgJR_Nm1nYGHnuTgDLbQhGld7fp3i-3EyoD8j1yglB89IT6mOoWSJ1Q_ZVvT_ATrlbi6g8O_uJuazXRiuSR25HeIzh2w1E0db7c7haOACQLJVTTvRq8/360fx360f",
         "cantidad": 0,
         "id": 17
-    },
-    {
-        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ODbTjxT09O_mIWPqPv9NLPFqWdQ-sJ0xLuRpdykiwDlrko-NWqmJdWUJlc3aFvYqVjoxuy-jJW5vpnIzndm6Sg8pSGKOEOP9uA/360fx360f",
-        "description": "Cuchillo clasico acero templado",
-        "precio": 1000,
-        "cantidad": 0,
-        "id": 18
-    },
-    {
-        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxT09O_mIWPqPrxN7LEm1Rd6dd2j6eUrdzw0Vfg-EY9N236IoSRIFU_YV_RqFi2kOjsg5e1u5XAmnAxsiR3-z-DyDOYcv8_/360fx360f",
-        "description": "Cuchillo destripador acero templado",
-        "precio": 2000,
-        "cantidad": 0,
-        "id": 19
-    },
-    {
-        "imagen": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1OrYYiR95t21n4uFnvHxDLrAqWRY5MB1teTE8YXghWu4qgE7Nnf6IIOScQ5taQnVqVW8x-7nhcK-vZzJmCdnsihz53qOzhDlg0wfa7c8m7XAHvfML_f7/360fx360f",
-        "description": "Navaja acero templado",
-        "precio": 700,
-        "cantidad": 0,
-        "id": 20
     }
 ]
+}

@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #171a21;
+    & a{
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        &:hover{
+            cursor: pointer;
+            background-color: rgba(116, 108, 108, 0.088);
+        }
+    }
+    &__img {
+        width: 150px;
+        margin-left: 250px;
+    }
+    &__page{
+        margin-left: 200px;
+    }
+}
