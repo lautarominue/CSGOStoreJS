@@ -12,7 +12,7 @@ body {
   color: white;
   padding: 10px; }
   .titulo h1 {
-    font-size: 80px; }
+    font-size: 60px; }
 
 .cajas {
   display: flex;
@@ -58,7 +58,7 @@ body {
       cursor: pointer;
       background-color: rgba(116, 108, 108, 0.088); }
   .navbar__img {
-    width: 150px;
+    width: 130px;
     margin-left: 250px; }
   .navbar__page {
     margin-left: 200px; }
