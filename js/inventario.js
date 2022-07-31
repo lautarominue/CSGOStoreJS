@@ -174,7 +174,7 @@ function saveCarrito(data) {
 
 
 
-// funcion para vender items del inventario
+// funcion para vender items 
 function sellBox(caja) {
     
     swal({

@@ -63,7 +63,7 @@ function saveCarrito(data, name) {
             element.cantidad += 1;
 
             localStorage.setItem(name, JSON.stringify(carrito))
-            //alert
+            //alert con informacion de compra
             if ( name == "box" ) {
                 swal("Felicitaciones!", "Compraste una caja", "success");
                 
